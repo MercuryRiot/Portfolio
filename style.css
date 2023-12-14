@@ -1,0 +1,154 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f5f8fd;
+}
+
+header {
+  background-color: #e0f2fa;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+nav a {
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  transition: color 0.2s ease-in-out;
+}
+
+nav a:hover {
+  color: #2980b9;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+#about {
+  display: flex;
+  align-items: center;
+}
+
+#about img {
+  width: 200px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+#about p {
+  line-height: 1.5;
+}
+
+h2, h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+#skills li {
+  margin-bottom: 5px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.card-img-square {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.card h3 a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.card h3 a:hover {
+  color: #2980b9;
+}
+
+#experience ul {
+  list-style: none;
+  padding: 0;
+}
+
+#experience li {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#experience li p {
+  font-weight: normal;
+  color: #777;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#contact label {
+  font-weight: bold;
+}
+
+#contact input, textarea {
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+#contact button {
+  background-color: #2980b9;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#contact button:hover {
+  background-color: #256c9b;
+}
+
+nav a i {
+  font-size: 1.5em;
+  margin-left: 10px;
+  color: #333;
+  transition: color 0.2s ease-in-out;
+}
+
+nav a i:hover {
+  color: #2980b9;
+}
